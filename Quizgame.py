@@ -36,6 +36,15 @@ def again():
     checker(option, choice)
 
     print(f"You have scored {score} points out of 20")
+    
+    '''
+        print('\n')
+    re=(input("Press 'y' is you want to play again and 'n' to exit: "))#for adding further more questions
+    if re=='y' or re=='Y':
+        pass
+    if re=='n' or re=='N':
+        print("Thank you for playing :)")
+    '''
 
 
 def scorer():
